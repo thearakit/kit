@@ -1,0 +1,633 @@
+
+// display flex
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1a2028;
+    height: 40px;
+    .header{
+        display: flex;
+        i{
+            color: #ffffff;
+            &.shopping{
+                padding: 0 30px;
+            }
+            
+        }
+        i:hover{
+            color: rgba(255,255,255,.48);
+            line-height: 26px;
+            cursor: pointer;
+        }
+       
+        p{
+            margin: 0;
+            padding: 0 30px;
+            line-height: 26px;
+
+            color: #ffffff;
+            font-size: 12px;
+            
+        }
+
+        p:hover{
+            color: #171468;
+            line-height: 26px;
+            font-family: 'franklin gothic medium',
+        
+        }
+    }
+          
+            
+
+
+    
+}
+.body{
+    width: 100%;
+    height: 261.56px;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+ .box{
+        width: 126px;
+        height: 34px;
+        border: 1px solid #fff;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        p{
+            color: #fff;
+          
+
+        }
+    }
+}
+h1{
+    color: #fff;
+    margin: 17px;
+}
+
+
+p{
+    color: #fff;
+    font-size: 15px;
+    
+}
+
+
+.blue{
+    color: rgb(79, 158, 223);
+    font-size: 19px;
+    }
+
+
+
+
+    
+.body{
+    width: 100%;
+    height: 261.56px;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    
+}   
+.corrent{
+    font-size: 19px;
+}
+
+
+
+.theara{
+    font-size: 30px;
+}
+.kit{
+    font-size: 20px;
+}
+
+.hole1{
+    margin:0px 0px 10px;
+}
+
+.b2{
+    width: 100%;
+    height: 569px;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0px 10px;
+    
+}
+.b9{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.b10{
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    
+
+}
+.b7{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.b8{
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:rgb(79, 158, 223);
+}
+.b2{
+    position: relative;
+  
+}
+.b4{
+    background-image: url(./../assets/image/iphone_xr_5e40f_medium.jpg);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+    background-position: bottom;
+}
+
+.c1{
+    width: 100%;
+    height: 569px;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.c4{
+    font-size: 17px;
+    display: flex;
+    justify-content: center,
+    
+    
+}
+.c5{
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.c9{
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.c7{
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.c8{
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(79, 158, 223);
+    
+
+}
+.c2{
+    background-image: url(./../assets/image/iphone_xs_0afef_medium.jpg);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    bottom: 0;
+    z-index: 1;
+    background-position: bottom;
+    
+}
+
+.rows{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin:20px 12px 12px;
+}
+
+.idea-righ{
+
+    width: 50%;
+    height: 580px;
+    display: flex;
+  
+}
+
+.idea-left{
+   
+    width: 50%;
+    height: 580px;
+    display: flex;
+    justify-content:center;
+   
+
+   
+}
+
+.aa{
+    margin:10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 50px;
+    color: #000;
+   
+}
+.ab{
+    margin:10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 21px;
+    color: #000;
+    
+
+}
+.ac{
+    margin:10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 21px;
+    color: #000;
+}
+.ad{
+    margin:10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 21px;
+    color: #6863ee;
+}
+.apple{
+    background-image: url(./../assets/image/Today.jpg);
+    background-repeat: no-repeat;
+    width: 656.5px;
+    height: 580px;
+    background-position: bottom;
+  
+}
+.watch{
+    font-size: 50px;
+    color:#0d1014;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    
+    
+}
+    
+
+.sery{
+    color: #ba1035;
+    font-size: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+
+}
+.colorf{
+
+    color: #2f0fa1;
+    font-size: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 12px;
+}
+.colorful{
+
+    color: #000;
+    font-size: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+.iwatch{
+    background-image: url(../assets/image/t1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 890px;
+    height: 700px;
+    margin: 0%;
+  
+}
+
+.row2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #000;
+}
+.idea-left1{
+    
+    width: 50%;
+    height: 320px;
+    margin-right: 12px;
+    align-items: center;
+    
+   
+
+}
+.idea-right2{
+   
+    width: 50%;
+    height: 320px;
+    margin-right: 12px;
+}
+.idea-left3{
+   
+    width: 50%;
+    height: 320px;
+    margin-right: 12px;
+}
+.idea-right4{
+    
+    width: 50%;
+    height: 320px;
+    margin-right: 12px;
+}
+
+.mini{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    color: #000;
+ 
+}
+.buynow{
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    color: #000;
+}
+.ipadmini{
+  background-image:url(../assets/image/ipadmini.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 500px;
+}
+.air{
+display: flex;
+justify-content: center;
+font-size: 30px;
+color: #000;
+}
+.airbuy{
+    display: flex;
+justify-content: center;
+font-size: 15px;
+color: #000;
+}
+.airplan{
+    background-image:url(../assets/image/ipadair.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 500px;
+}
+.proipad{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    color: #000;
+    
+ 
+    }
+    .probuy{
+        display: flex;
+    justify-content: center;
+    font-size: 15px;
+    color: #000;
+    }
+    .ipadpro{
+        background-image:url(../assets/image/ipadpro.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 100%;
+        height: 500px;
+    }
+  
+
+    .ipad2{
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+        color: #000;
+        
+     
+        }
+        .buy{
+
+         display: flex;
+        justify-content: center;
+        font-size: 15px;
+        color: #000;
+        }
+        .ipad{
+            background-image:url(../assets/image/ipadpro2.jpg);
+            background-repeat: no-repeat;
+            background-size: contain;
+            width: 100%;
+            height: 1260px;
+        }
+        
+
+        .rowza{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin:15px 0px;
+        }
+        
+        .za-righ{
+       
+            width: 50%;
+            height: 400px;
+            display: flex;
+           
+          
+        }
+        
+        .za-left{
+           
+            width: 50%;
+            height: 400px;
+            display: flex;
+            justify-content:center;
+           
+           
+        }
+        
+        .stew{
+            margin:10px 0px;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            font-size: 50px;
+            color: #fff;
+           
+        }
+        .stay{
+            margin:10px;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            font-size: 21px;
+            color: #fff;
+            
+        
+        }
+     
+       
+        .za{
+            background-image: url(../assets/image/theara.jpg);
+            background-repeat: no-repeat;
+            width: 100%;
+            height: 1260px;
+            background-size: contain;
+         
+          
+        }
+        .time{
+            font-size: 50px;
+            color:#0d1014;
+            display: flex;
+           
+            margin: 0px;
+            
+        }
+            
+        
+        .waste{
+            color: #ba1035;
+            font-size: 30px;
+            margin: 0px;
+        
+        }
+        
+        .life{
+        
+            color: rgb(224, 14, 196);
+            font-size: 30px;
+        }
+        .ra{
+            background-image: url(../assets/image/job.jpg);
+            background-repeat: no-repeat;
+            background-size: contain;
+            width: 100%;
+            height: 1250px;
+            
+        }
+
+
+       
+        
+        .swiper-container{
+
+            width: 700px;
+            height: 600px;
+            border: 1px solid #000;
+            background-color: #27292d;
+            
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+           
+
+            h6{
+                position: absolute;
+                top: 0px;
+                left: 0px;
+                font-size: 50px;
+                margin-left: 400px;
+            }
+        }
+
+        .particle{
+            font-size:50px;
+            align-items: center;
+            justify-content: center;
+            color: #000;
+        
+        }
+
+
+        .billowing{
+            font-size: 50px;
+            color: #000;
+            align-items: center;
+            justify-content: center;
+
+        }
+        .up{
+            font-size: 50px;
+            color: #000;
+            align-items: center;
+            justify-content: center;
+        }
+     
+
+.footer{
+display: flex;
+background-color: #c8cace;
+padding: 0px 70px;
+margin:15px 0px;
+.col{
+    flex: 1; 
+    margin-left:30px;
+    ul{
+        list-style: none;
+        margin: 0px;
+        padding: 0;
+        font-size: 12px;
+        li{
+            margin-top: 10px;
+        }
+    }
+}
+}
+
+.footer2{
+    padding: 0px 65px;
+  
+    ul{
+        list-style: none;
+      li{
+        margin-top: 10px;
+      }
+    }
+}
